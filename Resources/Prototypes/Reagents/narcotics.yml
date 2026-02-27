@@ -16,7 +16,9 @@
       - !type:HealthChange
         damage:
           types:
-            Poison: 0.75
+            Poison: 0.75 # Trauma - was 0.55
+            # Blunt: 1.1 # Trauma - no
+      # OD
       - !type:HealthChange
         conditions:
         - !type:ReagentCondition
