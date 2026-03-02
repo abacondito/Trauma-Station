@@ -3388,3 +3388,10 @@ Entries:
   id: 407
   time: '2026-03-02T15:27:41.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/951
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Lowered the delay on saying your last words from 10 to 2 seconds.
+  id: 408
+  time: '2026-03-02T20:09:39.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/955
