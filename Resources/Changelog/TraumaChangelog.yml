@@ -3715,3 +3715,14 @@ Entries:
   id: 440
   time: '2026-03-06T23:40:49.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1083
+- author: GeneRickUsername
+  changes:
+  - type: Tweak
+    message: Removed some knowledge shitcode
+  - type: Tweak
+    message: Tweaked some knowledge shitcode
+  - type: Tweak
+    message: Fixed autoinjectors
+  id: 441
+  time: '2026-03-07T10:09:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/988
