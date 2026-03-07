@@ -3831,3 +3831,16 @@ Entries:
   id: 451
   time: '2026-03-07T18:06:37.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1052
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      CQC, scarp, etc are now single use again and give expert level instead of
+      novice, before turning to ash.
+  - type: Tweak
+    message: Strength/Toughness/Athletics skills are no longer insane.
+  - type: Tweak
+    message: Skills and martial arts no longer do anything if you are sleeping.
+  id: 452
+  time: '2026-03-07T19:56:26.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1098
