@@ -3992,3 +3992,15 @@ Entries:
   id: 470
   time: '2026-03-09T11:24:08.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1151
+- author: MayasMischief
+  changes:
+  - type: Add
+    message: >-
+      Space Bear martial art is now real, and bear hide helps you learn it! It's
+      kinda half-baked, so you don't benefit from downed opponents yet, but it
+      works!
+  - type: Remove
+    message: Removed BSO
+  id: 471
+  time: '2026-03-09T11:58:22.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1140
