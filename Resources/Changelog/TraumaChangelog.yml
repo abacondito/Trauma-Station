@@ -4118,3 +4118,10 @@ Entries:
   id: 485
   time: '2026-03-10T08:50:46.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1179
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed enemy of the revolution icons never showing.
+  id: 486
+  time: '2026-03-10T12:00:59.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1181
