@@ -4093,3 +4093,10 @@ Entries:
   id: 482
   time: '2026-03-10T08:19:04.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1176
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Changed space bear martial arts to be less chuddy.
+  id: 483
+  time: '2026-03-10T08:25:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1177
