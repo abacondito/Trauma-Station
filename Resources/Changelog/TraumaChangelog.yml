@@ -4293,3 +4293,10 @@ Entries:
   id: 503
   time: '2026-03-13T11:03:35.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1210
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed some characters skill editors not working.
+  id: 504
+  time: '2026-03-13T17:51:56.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1242
