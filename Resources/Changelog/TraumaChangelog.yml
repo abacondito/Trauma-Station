@@ -4498,3 +4498,10 @@ Entries:
   id: 528
   time: '2026-03-14T23:15:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1310
+- author: assripper.
+  changes:
+  - type: Tweak
+    message: xenos can actually win now
+  id: 529
+  time: '2026-03-14T23:19:01.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1314
