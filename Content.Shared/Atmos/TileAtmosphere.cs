@@ -1,51 +1,14 @@
-// SPDX-FileCopyrightText: 2020 20kdc <asdd2808@gmail.com>
-// SPDX-FileCopyrightText: 2020 Campbell Suter <znix@znix.xyz>
-// SPDX-FileCopyrightText: 2020 Clement-O <topy72.mine@gmail.com>
-// SPDX-FileCopyrightText: 2020 Clément <clement.orlandini@gmail.com>
-// SPDX-FileCopyrightText: 2020 ComicIronic <comicironic@gmail.com>
-// SPDX-FileCopyrightText: 2020 DTanxxx <55208219+DTanxxx@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2020 Exp <theexp111@gmail.com>
-// SPDX-FileCopyrightText: 2020 Pieter-Jan Briers <pieterjan.briers@gmail.com>
-// SPDX-FileCopyrightText: 2020 Visne <vincefvanwijk@gmail.com>
-// SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2020 Víctor Aguilera Puerto <zddm@outlook.es>
-// SPDX-FileCopyrightText: 2020 a.rudenko <creadth@gmail.com>
-// SPDX-FileCopyrightText: 2020 creadth <creadth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2020 silicons <2003111+silicons@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2021 Metal Gear Sloth <metalgearsloth@gmail.com>
-// SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto <zddm@outlook.es>
-// SPDX-FileCopyrightText: 2022 Acruid <shatter66@gmail.com>
-// SPDX-FileCopyrightText: 2022 DrSmugleaf <DrSmugleaf@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Moony <moonheart08@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Paul Ritter <ritter.paul1@googlemail.com>
-// SPDX-FileCopyrightText: 2022 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
-// SPDX-FileCopyrightText: 2022 Vera Aguilera Puerto <6766154+Zumorica@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 Vera Aguilera Puerto <gradientvera@outlook.com>
-// SPDX-FileCopyrightText: 2022 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2022 metalgearsloth <comedian_vs_clown@hotmail.com>
-// SPDX-FileCopyrightText: 2022 mirrorcult <lunarautomaton6@gmail.com>
-// SPDX-FileCopyrightText: 2022 wrexbe <81056464+wrexbe@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Kevin Zheng <kevinz5000@gmail.com>
-// SPDX-FileCopyrightText: 2024 Leon Friedrich <60421075+ElectroJr@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
-// SPDX-FileCopyrightText: 2024 PraxisMapper <praxismapper@gmail.com>
-// SPDX-FileCopyrightText: 2024 drakewill-CRL <46307022+drakewill-CRL@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-//
-// SPDX-License-Identifier: AGPL-3.0-or-later
+using Content.Shared.Atmos.Components;
+using Content.Shared.Atmos.EntitySystems;
 
-using Content.Server.Atmos.Components;
-using Content.Server.Atmos.EntitySystems;
-using Content.Shared.Atmos;
-
-namespace Content.Server.Atmos;
+namespace Content.Shared.Atmos;
 
 /// <summary>
 /// Internal Atmospherics class that stores data on an atmosphere in a single tile.
-/// You should not be using these directly outside of <see cref="AtmosphereSystem"/>.
-/// Use the public APIs in <see cref="AtmosphereSystem"/> instead.
+/// You should not be using these directly outside of <see cref="SharedAtmosphereSystem"/>.
+/// Use the public APIs in <see cref="SharedAtmosphereSystem"/> instead.
 /// </summary>
-[Access(typeof(AtmosphereSystem), typeof(GasTileOverlaySystem), typeof(AtmosDebugOverlaySystem))]
+[Access(typeof(SharedAtmosphereSystem), typeof(SharedGasTileOverlaySystem), typeof(SharedAtmosDebugOverlaySystem))]
 public sealed class TileAtmosphere : IGasMixtureHolder
 {
     /// <summary>
@@ -132,7 +95,7 @@ public sealed class TileAtmosphere : IGasMixtureHolder
     /// Current <see cref="MonstermosInfo"/> information for this tile.
     /// </summary>
     [ViewVariables]
-    [Access(typeof(AtmosphereSystem), Other = AccessPermissions.ReadExecute)]
+    [Access(typeof(SharedAtmosphereSystem), Other = AccessPermissions.ReadExecute)]
     public MonstermosInfo MonstermosInfo;
 
     /// <summary>
@@ -158,7 +121,7 @@ public sealed class TileAtmosphere : IGasMixtureHolder
     /// Grid entity this tile belongs to.
     /// </summary>
     [ViewVariables]
-    [Access(typeof(AtmosphereSystem))]
+    [Access(typeof(SharedAtmosphereSystem))]
     public EntityUid GridIndex;
 
     /// <summary>
@@ -178,7 +141,7 @@ public sealed class TileAtmosphere : IGasMixtureHolder
     /// This can be immutable if the tile is spaced.
     /// </summary>
     [ViewVariables]
-    [Access(typeof(AtmosphereSystem), Other = AccessPermissions.ReadExecute)] // FIXME Friends
+    [Access(typeof(SharedAtmosphereSystem), Other = AccessPermissions.ReadExecute)] // FIXME Friends
     public GasMixture? Air;
 
     /// <summary>
@@ -238,7 +201,7 @@ public sealed class TileAtmosphere : IGasMixtureHolder
     /// Cached information about airtight entities on this tile. This gets updated anytime a tile gets invalidated
     /// (i.e., gets added to <see cref="GridAtmosphereComponent.InvalidatedCoords"/>).
     /// </summary>
-    public AtmosphereSystem.AirtightData AirtightData;
+    public AirtightData AirtightData;
 
     /// <summary>
     /// Creates a new TileAtmosphere.
