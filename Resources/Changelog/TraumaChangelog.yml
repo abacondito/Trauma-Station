@@ -4528,3 +4528,10 @@ Entries:
   id: 532
   time: '2026-03-15T09:27:16.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1206
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed toughness skill decreasing AP damage like AP ammo and /suicide
+  id: 533
+  time: '2026-03-15T10:12:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1321
