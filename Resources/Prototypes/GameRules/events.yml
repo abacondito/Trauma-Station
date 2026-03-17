@@ -34,18 +34,18 @@
   id: BasicAntagEventsTable
   table: !type:AllSelector # we need to pass a list of rules, since rules have further restrictions to consider via StationEventComp
     children:
+    # <Trauma>
+    - id: MimicVendorRule
+    - id: SlimesSpawnHorde
+    - id: SnakeSpawnHorde
+    - id: SpiderClownSpawnHorde
+    - id: SpiderSpawnHorde
+    # </Trauma>
     - id: ClosetSkeleton
     - id: KingRatMigration
     #- id: RevenantSpawn  # GoobStation - removed till rework
     - !type:NestedSelector
       tableId: DerelictBorgEventTable
-    # <Trauma>
-    - id: MimicVendorRule
-    - id: SlimesSpawn
-    - id: SnakeSpawn
-    - id: SpiderClownSpawn
-    - id: SpiderSpawn
-    # </Trauma>
 
 - type: entityTable
   id: ModerateAntagEventsTable

@@ -184,10 +184,10 @@
     earliestStart: 15
     minimumPlayers: 15
     maxOccurrences: 2
-  - type: VentCrittersRule
-    max: 1
-    entries:
-    - id: MobFloorGoblin
+    duration: 5
+  - type: VentHordeRule
+    table:
+      id: MobFloorGoblin
 
 # Midround Devil
 - type: entity
@@ -479,10 +479,10 @@
     earliestStart: 15
     minimumPlayers: 15
     maxOccurrences: 2
-  - type: VentCrittersRule
-    max: 1
-    entries:
-    - id: MobClownGoblin
+    duration: 5
+  - type: VentHordeRule
+    table:
+      id: MobClownGoblin
 
 # Slasher
 - type: entity

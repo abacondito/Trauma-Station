@@ -1,15 +1,3 @@
-# SPDX-FileCopyrightText: 2024 IProduceWidgets <107586145+IProduceWidgets@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2024 yglop <95057024+yglop@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
-# SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Ilya246 <ilyukarno@gmail.com>
-# SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
-# SPDX-FileCopyrightText: 2025 Tim <timfalken@hotmail.com>
-# SPDX-FileCopyrightText: 2025 Timfa <timfalken@hotmail.com>
-# SPDX-FileCopyrightText: 2025 deltanedas <39013340+deltanedas@users.noreply.github.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
 # tables
 
 - type: entityTable
@@ -37,13 +25,12 @@
   - type: StationEvent
     earliestStart: 15
     weight: 6
-    duration: 30 # DeltaV: was 50, used as a delay now
+    duration: 50
   - type: VentCrittersRule
-    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
-      children:
-      - id: SpawnMobMouse
-      - id: MobMouseCancer
-        weight: 0.02
+    entries:
+    - id: SpawnMobMouse # Trauma - replaces individual mice
+    - id: MobMouseCancer
+      prob: 0.02
 # Events always spawn a critter regardless of Probability https://github.com/space-wizards/space-station-14/issues/28480 I added the Rat King to their own event with a player cap.
 
 - type: entity
@@ -53,7 +40,7 @@
   - type: StationEvent
     earliestStart: 15
     weight: 6
-    duration: 30 # DeltaV: was 50, used as a delay now
+    duration: 50
     minimumPlayers: 30 # Hopefully this is enough for the Rat King's potential Army (it was not, raised from 15 -> 30)
   - type: VentCrittersRule # We don't use Horde here to make RK spawns less predictable.
     entries:
@@ -79,18 +66,17 @@
   components:
   - type: StationEvent
     weight: 6
-    duration: 30 # DeltaV: was 50, used as a delay now
+    duration: 50
   - type: VentCrittersRule
-    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
-      children:
-      - id: MobCockroach
-        weight: 0.79
-      - id: MobMothmaggot # Trauma - was MobMothroach
-        weight: 0.20
-      - id: MobLootbug # Goobstation
-        weight: 0.3
-      - id: MobMoproach
-        weight: 0.01
+    entries:
+    - id: MobCockroach
+      prob: 0.03
+    - id: MobMothmaggot # Trauma - was MobMothroach
+      prob: 0.008
+    - id: MobLootbug # Goobstation
+      prob: 0.006
+    - id: MobMoproach
+      prob: 0.004
 
 - type: entity
   id: SnailMigrationLowPop
@@ -98,13 +84,15 @@
   components:
   - type: StationEvent
     weight: 6
-    duration: 30 # DeltaV: was 50, used as a delay now
+    duration: 50
   - type: VentCrittersRule
-    table: !type:GroupSelector # DeltaV: EntityTable instead of spawn entries
-      children:
-      - id: MobSnail
-      - id: MobSnailSpeed
-      - id: MobSnailMoth
+    entries:
+    - id: MobSnail
+      prob: 0.02
+    - id: MobSnailSpeed
+      prob: 0.002
+    - id: MobSnailMoth
+      prob: 0.002
 
 - type: entity
   id: SnailMigration
@@ -113,7 +101,7 @@
   - type: StationEvent
     earliestStart: 15
     weight: 6
-    duration: 30 # DeltaV: was 50, used as a delay now
+    duration: 50
     minimumPlayers: 30
   - type: VentCrittersRule
     entries:
