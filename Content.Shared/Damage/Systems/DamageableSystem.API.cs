@@ -577,6 +577,17 @@ public sealed partial class DamageableSystem
         if (!_damageableQuery.Resolve(ent, ref ent.Comp))
             return new();
 
+        // <Trauma>
+        if (_bodyQuery.TryComp(ent, out var body))
+        {
+            var all = new DamageSpecifier();
+            foreach (var organ in _body.GetExternalOrgans((ent, body)))
+            {
+                all += GetAllDamage(organ.Owner);
+            }
+            return all;
+        }
+        // </Trauma>
         return ent.Comp.Damage.Clone();
     }
 
@@ -589,6 +600,17 @@ public sealed partial class DamageableSystem
         if (!_damageableQuery.Resolve(ent, ref ent.Comp, false))
             return FixedPoint2.Zero;
 
+        // <Trauma>
+        if (_bodyQuery.TryComp(ent, out var body))
+        {
+            var total = FixedPoint2.Zero;
+            foreach (var organ in _body.GetExternalOrgans((ent, body)))
+            {
+                total += GetTotalDamage(organ.Owner);
+            }
+            return total;
+        }
+        // </Trauma>
         return ent.Comp.TotalDamage;
     }
 
@@ -601,6 +623,20 @@ public sealed partial class DamageableSystem
         if (!_damageableQuery.Resolve(ent, ref ent.Comp))
             return new Dictionary<ProtoId<DamageGroupPrototype>, FixedPoint2>();
 
+        // <Trauma> - let body handle it
+        if (_bodyQuery.TryComp(ent, out var body))
+        {
+            var groups = new Dictionary<ProtoId<DamageGroupPrototype>, FixedPoint2>();
+            foreach (var organ in _body.GetExternalOrgans((ent, body)))
+            {
+                foreach (var (group, value) in GetDamagePerGroup(organ.Owner))
+                {
+                    groups[group] = groups.GetValueOrDefault(group) + value;
+                }
+            }
+            return groups;
+        }
+        // </Trauma>
         return ent.Comp.DamagePerGroup;
     }
 
