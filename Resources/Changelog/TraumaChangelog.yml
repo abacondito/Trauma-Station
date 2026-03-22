@@ -5157,3 +5157,10 @@ Entries:
   id: 606
   time: '2026-03-21T23:40:49.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1506
+- author: GoidaYAMLWarrior
+  changes:
+  - type: Tweak
+    message: crack is now 10% chance to paralyze instead of 30%
+  id: 607
+  time: '2026-03-22T08:02:15.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1511
