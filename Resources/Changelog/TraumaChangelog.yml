@@ -5374,3 +5374,16 @@ Entries:
   id: 630
   time: '2026-03-24T21:34:56.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1562
+- author: deltanedas
+  changes:
+  - type: Add
+    message: >-
+      Cargo ordering consoles can now set the telepad/trade station to send
+      orders to. It will pick cargo's telepad by default.
+  - type: Tweak
+    message: >-
+      The ATS is now mainly just for selling things, you can still select it as
+      a backup.
+  id: 631
+  time: '2026-03-24T22:04:26.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1563
