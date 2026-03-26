@@ -5512,3 +5512,10 @@ Entries:
   id: 647
   time: '2026-03-26T20:10:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1605
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed directional walls having the wrong shadow shape of a full tile.
+  id: 648
+  time: '2026-03-26T20:20:23.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1606
