@@ -5867,3 +5867,12 @@ Entries:
   id: 690
   time: '2026-03-30T14:41:52.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1715
+- author: TurboTrackerss14
+  changes:
+  - type: Add
+    message: >-
+      Chaplain guidebook now has a more detailed section for nullrod
+      transformations.
+  id: 691
+  time: '2026-03-30T16:58:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1716
