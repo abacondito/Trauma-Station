@@ -5824,3 +5824,10 @@ Entries:
   id: 685
   time: '2026-03-30T08:52:35.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1695
+- author: NoElkaTheGod
+  changes:
+  - type: Tweak
+    message: New sprites for railings.
+  id: 686
+  time: '2026-03-30T09:14:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1708
