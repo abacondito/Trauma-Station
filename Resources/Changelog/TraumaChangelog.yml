@@ -6058,3 +6058,10 @@ Entries:
   id: 700
   time: '2026-04-01T00:58:05.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1760
+- author: Armok
+  changes:
+  - type: Fix
+    message: Borg hand bug
+  id: 701
+  time: '2026-04-01T07:08:27.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1766
