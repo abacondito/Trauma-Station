@@ -6183,3 +6183,10 @@ Entries:
   id: 713
   time: '2026-04-02T18:05:22.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1789
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed john shitcode breaking radial menus...
+  id: 714
+  time: '2026-04-02T20:05:29.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1793
