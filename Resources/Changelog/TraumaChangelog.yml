@@ -6155,3 +6155,10 @@ Entries:
   id: 709
   time: '2026-04-02T03:29:32.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1342
+- author: Armok
+  changes:
+  - type: Add
+    message: Heretic rituals and Forge guidebooks
+  id: 710
+  time: '2026-04-02T10:15:15.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1787
