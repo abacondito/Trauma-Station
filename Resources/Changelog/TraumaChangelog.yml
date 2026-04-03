@@ -6226,3 +6226,13 @@ Entries:
   id: 718
   time: '2026-04-03T00:36:55.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1802
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Maybe fixed the extreme delay bug. If you see yourself say allcaps message
+      about a bug in looc, press tilde (`) to open the console and report the
+      error.
+  id: 719
+  time: '2026-04-03T01:43:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1805
