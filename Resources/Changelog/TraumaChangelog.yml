@@ -6347,3 +6347,10 @@ Entries:
   id: 734
   time: '2026-04-03T23:37:06.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1841
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Added the Morph from Paradise station SS13. Be careful wandering maints...
+  id: 735
+  time: '2026-04-04T00:15:42.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1834
