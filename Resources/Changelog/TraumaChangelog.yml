@@ -6431,3 +6431,12 @@ Entries:
   id: 744
   time: '2026-04-05T00:21:16.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1869
+- author: momoyawn
+  changes:
+  - type: Tweak
+    message: >-
+      Nullrod "Faith" now has proper sound effects and two modes: Silver hurts
+      and Blessed heals.
+  id: 745
+  time: '2026-04-05T00:56:13.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1868
