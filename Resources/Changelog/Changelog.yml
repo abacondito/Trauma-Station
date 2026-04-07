@@ -1,15 +1,6 @@
 ﻿Entries:
 - author: TrixxedHeart
   changes:
-  - message: Added Enter/Leave Genpop access to Security by default, allowing them
-      to be able to fix Genpop turnstiles with the access configurator if they are
-      destroyed.
-    type: Tweak
-  id: 9114
-  time: '2025-10-18T00:28:44.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39515
-- author: TrixxedHeart
-  changes:
   - message: Added Vox Chitter and Clicking emotes
     type: Add
   id: 9115
@@ -4048,3 +4039,10 @@
   id: 9625
   time: '2026-04-07T18:59:14.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43505
+- author: ketufaispikinut
+  changes:
+  - message: Added the tourist's travel camera along with very basic textual photographs.
+    type: Add
+  id: 9626
+  time: '2026-04-07T20:33:23.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43322
