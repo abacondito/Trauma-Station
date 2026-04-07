@@ -6532,3 +6532,18 @@ Entries:
   id: 756
   time: '2026-04-07T21:29:39.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1852
+- author: Aviu, RedTerrorDark
+  changes:
+  - type: Add
+    message: More roundstart laser gun variety, better sprites and sounds.
+  - type: Tweak
+    message: Reduced eye blur effect from lasers.
+  - type: Fix
+    message: Energy shotgun projectiles now pierce through glass.
+  - type: Tweak
+    message: Laser gun buffs.
+  - type: Tweak
+    message: Gun resprites (RedTerrorDark)
+  id: 757
+  time: '2026-04-07T21:33:56.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1894
