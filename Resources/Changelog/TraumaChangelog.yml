@@ -6563,3 +6563,10 @@ Entries:
   id: 759
   time: '2026-04-08T10:42:19.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1917
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: No more map vote spamming while in the middle of a round :)
+  id: 760
+  time: '2026-04-08T12:37:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1908
