@@ -6579,3 +6579,10 @@ Entries:
   id: 761
   time: '2026-04-08T16:00:47.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1918
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Sec funding booster can only be used 30m in up from 10m.
+  id: 762
+  time: '2026-04-08T17:16:02.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1919
