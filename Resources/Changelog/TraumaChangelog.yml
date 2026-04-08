@@ -6570,3 +6570,12 @@ Entries:
   id: 760
   time: '2026-04-08T12:37:25.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1908
+- author: JohnJJohn
+  changes:
+  - type: Fix
+    message: >-
+      REJOICE, SPEECH BUBBLE FONTS HAVE NOW BEEN FIXED, THE CLOWNS WILL SPEAK IN
+      COMIC SANS AS GOD TRUELY INDENDED
+  id: 761
+  time: '2026-04-08T16:00:47.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1918
