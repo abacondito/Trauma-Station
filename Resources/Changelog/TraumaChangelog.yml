@@ -6641,3 +6641,10 @@ Entries:
   id: 769
   time: '2026-04-09T09:57:47.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1934
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Rebooting IPCs now uses vital damage instead of total damage.
+  id: 770
+  time: '2026-04-09T10:13:51.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1935
