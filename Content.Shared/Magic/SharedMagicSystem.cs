@@ -400,10 +400,13 @@ public abstract class SharedMagicSystem : EntitySystem
     #region Projectile Spells
     public void OnProjectileSpell(ProjectileSpellEvent ev) // Goob edit - made public
     {
-        if (ev.Handled || !PassesSpellPrerequisites(ev.Action, ev.Performer)) // Goob edit
+        if (ev.Handled || !PassesSpellPrerequisites(ev.Action, ev.Performer))
             return;
 
         ev.Handled = true;
+
+        if (!_net.IsServer)
+            return; // client returns handled for predicted audio
 
         var xform = Transform(ev.Performer);
         var fromCoords = xform.Coordinates;
