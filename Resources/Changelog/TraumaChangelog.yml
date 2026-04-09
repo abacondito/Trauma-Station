@@ -6593,3 +6593,12 @@ Entries:
   id: 763
   time: '2026-04-09T06:54:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1925
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Fixed even health changes like trico and skeleton milk healing only
+      healing a random bodypart instead of all of them.
+  id: 764
+  time: '2026-04-09T07:01:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1926
