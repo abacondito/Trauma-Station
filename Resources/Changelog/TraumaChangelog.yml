@@ -6586,3 +6586,10 @@ Entries:
   id: 762
   time: '2026-04-08T17:16:02.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1919
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed slop thief pinpointer.
+  id: 763
+  time: '2026-04-09T06:54:17.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1925
