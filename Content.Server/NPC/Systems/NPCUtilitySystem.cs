@@ -37,6 +37,7 @@ using Content.Shared.Atmos.Components;
 using System.Linq;
 using Content.Shared.Damage.Components;
 using Content.Shared.Damage.Systems;
+using Content.Shared.Mobs.Components;
 using Content.Shared.Temperature.Components;
 
 namespace Content.Server.NPC.Systems;
@@ -328,16 +329,12 @@ public sealed class NPCUtilitySystem : EntitySystem
             }
             case TargetHealthCon con:
             {
-                if (!TryComp(targetUid, out DamageableComponent? damage))
+                if (!TryComp(targetUid, out DamageableComponent? damage) || !TryComp(targetUid, out MobThresholdsComponent? threshold))
                     return 0f;
-                // <Trauma>
-                if (!TryComp(targetUid, out MobThresholdsComponent? thresholds))
-                    return 1f; // a bit of a hack but works
-                // </Trauma>
                 var totalDamage = _damageable.GetTotalDamage((targetUid, damage));
-                if (con.TargetState != MobState.Invalid && _thresholdSystem.TryGetPercentageForState(targetUid, con.TargetState, totalDamage, out var percentage, thresholds)) // Trauma - add thresholds
+                if (con.TargetState != MobState.Invalid && _thresholdSystem.TryGetPercentageForState(targetUid, con.TargetState, totalDamage, out var percentage, threshold))
                     return Math.Clamp((float)(1 - percentage), 0f, 1f);
-                if (_thresholdSystem.TryGetIncapPercentage(targetUid, totalDamage, out var incapPercentage))
+                if (_thresholdSystem.TryGetIncapPercentage(targetUid, totalDamage, out var incapPercentage, threshold))
                     return Math.Clamp((float)(1 - incapPercentage), 0f, 1f);
                 return 0f;
             }
