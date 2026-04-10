@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Mehnix
-  changes:
-  - message: All pens now embed when thrown.
-    type: Tweak
-  id: 9122
-  time: '2025-10-18T21:39:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/39104
 - author: JackRyd3r
   changes:
   - message: You can now put the Energy Magnum to into jackboots/combat boots and
@@ -4052,3 +4045,11 @@
   id: 9633
   time: '2026-04-10T20:22:18.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43385
+- author: ArtisticRoomba
+  changes:
+  - message: Fixed the pneumatic valve overshooting gas equalization between the two
+      connected pipenets.
+    type: Fix
+  id: 9634
+  time: '2026-04-10T20:41:53.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43542
