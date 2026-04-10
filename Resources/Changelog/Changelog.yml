@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: PicklOH
-  changes:
-  - message: Rags can no longer be used to remove evidence.
-    type: Remove
-  id: 9118
-  time: '2025-10-18T13:49:54.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40818
 - author: MissKay1994
   changes:
   - message: Vox organs now have unique sprites.
@@ -4042,3 +4035,13 @@
   id: 9629
   time: '2026-04-09T21:42:37.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43535
+- author: AndrewFenriz
+  changes:
+  - message: 'Added visual overlays to the janibelt for: Soap, Cleaner Grenade, Plungers,
+      Light Replacer, Wire Brush, Wet Floor Signs, and Holosign Projector.'
+    type: Add
+  - message: Added missing sprites for trash bags when equipped on the belt.
+    type: Add
+  id: 9630
+  time: '2026-04-10T06:12:36.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43492
