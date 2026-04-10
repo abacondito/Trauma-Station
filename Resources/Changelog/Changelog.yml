@@ -1,14 +1,11 @@
 ﻿Entries:
-- author: perryprog
+- author: Mehnix
   changes:
-  - message: Drag-and-dropping liquids between containers has been adjusted.
+  - message: All pens now embed when thrown.
     type: Tweak
-  - message: You can no longer insert liquids into foods by clicking. Using syringes
-      still works as before.
-    type: Tweak
-  id: 9121
-  time: '2025-10-18T17:58:32.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/38871
+  id: 9122
+  time: '2025-10-18T21:39:32.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/39104
 - author: JackRyd3r
   changes:
   - message: You can now put the Energy Magnum to into jackboots/combat boots and
@@ -4046,3 +4043,12 @@
   id: 9632
   time: '2026-04-10T16:38:05.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43537
+- author: ahandleman
+  changes:
+  - message: Kudzu Gene Removal Effect to Plant-B-Gone!
+    type: Add
+  - message: Removed Magic Shared Seed Kudzu Removal!
+    type: Fix
+  id: 9633
+  time: '2026-04-10T20:22:18.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43385
