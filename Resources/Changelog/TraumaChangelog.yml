@@ -6655,3 +6655,10 @@ Entries:
   id: 771
   time: '2026-04-09T17:42:37.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1946
+- author: assripper. deltanedas
+  changes:
+  - type: Add
+    message: Xeno nests can now be found on lavaland.
+  id: 772
+  time: '2026-04-10T09:24:38.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1954
