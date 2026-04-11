@@ -6740,3 +6740,12 @@ Entries:
   id: 780
   time: '2026-04-10T21:27:27.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1972
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Airlocks and shutters now revert to their assemblies before fully
+      destroying, dropping steel in the process.
+  id: 781
+  time: '2026-04-11T12:36:29.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/1976
