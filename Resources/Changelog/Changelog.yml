@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: AlwyAnri
-  changes:
-  - message: Added a ninja headset.
-    type: Add
-  id: 9124
-  time: '2025-10-19T11:45:14.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40054
 - author: Pgriha
   changes:
   - message: Cotton seeds added to seeds crate from Cargo.
@@ -4053,3 +4046,11 @@
   id: 9635
   time: '2026-04-11T10:49:41.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43500
+- author: ProPeperos
+  changes:
+  - message: Fixed stacks of concrete and astro mowed/jungle grass splitting in to
+      wrong items
+    type: Fix
+  id: 9636
+  time: '2026-04-11T19:05:06.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43547
