@@ -1047,7 +1047,7 @@ public abstract partial class SharedActionsSystem : EntitySystem
         if (GameTiming.ApplyingState || !GameTiming.IsFirstTimePredicted) // Goob edit
             return;
 
-        var ev = new GetItemActionsEvent(_actionContainer, args.Equipee, args.Equipment, args.SlotFlags);
+        var ev = new GetItemActionsEvent(_actionContainer, args.EquipTarget, args.Equipment, args.SlotFlags);
         RaiseLocalEvent(args.Equipment, ev);
 
         if (ev.Actions.Count == 0)
@@ -1055,7 +1055,7 @@ public abstract partial class SharedActionsSystem : EntitySystem
 
         GrantActions((ent, ent), ev.Actions, args.Equipment);
 
-        LoadActions(args.Equipee); // Goobstation
+        LoadActions(args.EquipTarget); // Goobstation
     }
 
     private void OnHandEquipped(Entity<ActionsComponent> ent, ref DidEquipHandEvent args)
@@ -1079,16 +1079,16 @@ public abstract partial class SharedActionsSystem : EntitySystem
         if (GameTiming.ApplyingState || !GameTiming.IsFirstTimePredicted) // Goob edit
             return;
 
-        // Goobstation start
+        // <Trauma>
         if (!TerminatingOrDeleted(args.Equipment))
         {
-            var ev = new GetItemActionsEvent(_actionContainer, args.Equipee, args.Equipment, isEquipping: false); // Lavaland Change - added false for isEquipping
+            var ev = new GetItemActionsEvent(_actionContainer, args.EquipTarget, args.Equipment, isEquipping: false);
             RaiseLocalEvent(args.Equipment, ev);
 
             if (ev.Actions.Count > 0)
                 SaveActions(uid);
         }
-        // Goobstation end
+        // </Trauma>
 
         RemoveProvidedActions(uid, args.Equipment, component);
     }
