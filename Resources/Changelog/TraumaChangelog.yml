@@ -6845,3 +6845,10 @@ Entries:
   id: 791
   time: '2026-04-13T11:13:22.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2001
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed ninjutsu stunlock and being bad.
+  id: 792
+  time: '2026-04-13T12:18:20.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2002
