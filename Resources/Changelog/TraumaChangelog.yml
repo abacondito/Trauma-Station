@@ -6911,3 +6911,12 @@ Entries:
   id: 799
   time: '2026-04-14T08:05:46.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2021
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Mice and xenobio slimes now despawn after 5 minutes if they die.
+  - type: Tweak
+    message: Bloodloss and asphyxiation no longer damage limbs.
+  id: 800
+  time: '2026-04-14T10:32:54.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2022
