@@ -6927,3 +6927,10 @@ Entries:
   id: 801
   time: '2026-04-14T10:39:29.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2023
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed raider ddos, back to baseball bats.
+  id: 802
+  time: '2026-04-14T14:37:28.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2025
