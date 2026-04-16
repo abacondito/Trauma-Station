@@ -7048,3 +7048,10 @@ Entries:
   id: 816
   time: '2026-04-16T21:00:06.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2083
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed dislipper from the uplink.
+  id: 817
+  time: '2026-04-16T21:32:05.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2085
