@@ -6996,3 +6996,10 @@ Entries:
   id: 810
   time: '2026-04-16T09:27:38.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2062
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed most pets not understanding people.
+  id: 811
+  time: '2026-04-16T11:45:42.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2064
