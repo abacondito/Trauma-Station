@@ -6989,3 +6989,10 @@ Entries:
   id: 809
   time: '2026-04-16T07:19:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2060
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Change krav maga's action popups to look better.
+  id: 810
+  time: '2026-04-16T09:27:38.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2062
