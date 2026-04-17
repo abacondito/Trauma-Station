@@ -216,8 +216,8 @@
 
 #Elite web vest
 - type: entity
-  parent: [BaseSyndicateContraband, ClothingOuterArmorBase, AllowSuitStorageClothing,
-    ClothingOuterStorageBase] # Trauma
+  parent: [ClothingOuterArmorBase, ClothingOuterStorageBase, BaseSyndicateContraband,
+    AllowSuitStorageClothing] # Trauma
   id: ClothingOuterVestWebElite
   name: elite web vest
   description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
