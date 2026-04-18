@@ -7071,3 +7071,10 @@ Entries:
   id: 819
   time: '2026-04-18T12:14:28.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2107
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed paradox clone items not having paint copied over.
+  id: 820
+  time: '2026-04-18T12:57:01.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2108
