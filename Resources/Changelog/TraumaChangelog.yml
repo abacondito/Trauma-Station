@@ -7062,3 +7062,12 @@ Entries:
   id: 818
   time: '2026-04-18T06:47:05.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2039
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Full-fat oil now requires stirring to make, so you can now make bluespace
+      soap again.
+  id: 819
+  time: '2026-04-18T12:14:28.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2107
