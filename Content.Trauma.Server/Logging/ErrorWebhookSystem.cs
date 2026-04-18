@@ -112,7 +112,7 @@ public sealed class ErrorWebhookLogHandler : ILogHandler
     public static readonly string[] IgnoredStrings = new[]
     {
         // upstream issue nobody cares about with prometheus
-        "Unable to write data to the transport connection: Broken Pipe"
+        "Unable to write data to the transport connection: Broken pipe"
     };
 
     public RingBuffer<string> Buffer = default!; // set in Initialize
