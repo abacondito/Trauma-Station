@@ -7137,3 +7137,16 @@ Entries:
   id: 827
   time: '2026-04-19T10:45:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2045
+- author: Fat-Engineer-Gaming
+  changes:
+  - type: Add
+    message: Added several new Ion Lawsets!
+  - type: Remove
+    message: Removed Ion Law "THE SHUTTLE MUST BE CALLED BECAUSE..."
+  - type: Tweak
+    message: Ion storms are now more likely to roll "Dangerous" lawsets.
+  - type: Tweak
+    message: Ion storms can now roll Revolutionary and Cosmic Cultist lawsets.
+  id: 828
+  time: '2026-04-19T10:48:14.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2017
