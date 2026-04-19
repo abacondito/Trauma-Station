@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Quasr
-  changes:
-  - message: The "Friendly Fauna" artifact node no longer spawns hostile mobs
-    type: Tweak
-  id: 9140
-  time: '2025-10-21T10:27:30.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40979
 - author: Fildrance
   changes:
   - message: Door remotes now have a radial menu for changing modes.
@@ -4068,3 +4061,11 @@
   id: 9651
   time: '2026-04-19T05:36:23.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/43281
+- author: ArtisticRoomba
+  changes:
+  - message: Passive gates now have better equalization behavior and have less of
+      a tendency to over-equalize.
+    type: Fix
+  id: 9652
+  time: '2026-04-19T05:51:57.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43552
