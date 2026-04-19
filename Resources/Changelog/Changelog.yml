@@ -1,11 +1,4 @@
 ﻿Entries:
-- author: Krzeszny
-  changes:
-  - message: Updated the controls guide.
-    type: Tweak
-  id: 9139
-  time: '2025-10-21T10:14:59.0000000+00:00'
-  url: https://github.com/space-wizards/space-station-14/pull/40978
 - author: Quasr
   changes:
   - message: The "Friendly Fauna" artifact node no longer spawns hostile mobs
@@ -4058,3 +4051,20 @@
   id: 9650
   time: '2026-04-18T22:00:12.0000000+00:00'
   url: https://github.com/space-wizards/space-station-14/pull/37983
+- author: Princess-Cheeseballs
+  changes:
+  - message: Gas Canisters can now explode from overpressure.
+    type: Add
+  - message: Max Caps have been entirely reworked with different fuse lengths and
+      explosive strengths.
+    type: Tweak
+  - message: Max Cap intensity limits have been removed.
+    type: Tweak
+  - message: Tritium fire energy production has been divided by 10, returning to its
+      intended value.
+    type: Tweak
+  - message: The TEG now produces 25% more power.
+    type: Tweak
+  id: 9651
+  time: '2026-04-19T05:36:23.0000000+00:00'
+  url: https://github.com/space-wizards/space-station-14/pull/43281
