@@ -7178,3 +7178,10 @@ Entries:
   id: 830
   time: '2026-04-20T07:15:04.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2128
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Added an actual insurgents guidebook
+  id: 831
+  time: '2026-04-20T09:04:56.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2129
