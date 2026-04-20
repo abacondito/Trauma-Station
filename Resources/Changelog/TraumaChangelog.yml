@@ -7202,3 +7202,14 @@ Entries:
   id: 832
   time: '2026-04-20T20:39:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/1911
+- author: Armok
+  changes:
+  - type: Tweak
+    message: Extended should no longer roll
+  - type: Tweak
+    message: Traitors scale more with pop
+  - type: Tweak
+    message: Nukies and blob are now 50+ pop
+  id: 833
+  time: '2026-04-20T22:26:37.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2139
