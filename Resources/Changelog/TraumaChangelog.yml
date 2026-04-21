@@ -7236,3 +7236,13 @@ Entries:
   id: 836
   time: '2026-04-21T16:54:58.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2157
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Fixed genetics console scramble DNA button removing active mutations like
+      turning monkeys into humans (which also didnt actually scramble the new
+      human's DNA).
+  id: 837
+  time: '2026-04-21T17:50:15.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2158
