@@ -7297,3 +7297,10 @@ Entries:
   id: 843
   time: '2026-04-22T11:20:46.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2132
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Added the codespeak manual from tgstation to the uplink for 15 TC!
+  id: 844
+  time: '2026-04-22T11:58:51.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2174
