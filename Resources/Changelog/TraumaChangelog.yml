@@ -7288,3 +7288,12 @@ Entries:
   id: 842
   time: '2026-04-22T10:03:06.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2172
+- author: NoElka, KarusKardin
+  changes:
+  - type: Add
+    message: >-
+      Ported holographic generators from Far Horizons. See guidebook for more
+      information.
+  id: 843
+  time: '2026-04-22T11:20:46.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2132
