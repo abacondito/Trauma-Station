@@ -7246,3 +7246,15 @@ Entries:
   id: 837
   time: '2026-04-21T17:50:15.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2158
+- author: Aviu, kote
+  changes:
+  - type: Tweak
+    message: >-
+      All the space whales that had suffered strokes have died out. Only the
+      healthy ones remain, with bodies subject to the laws of physics and common
+      sense.
+  - type: Tweak
+    message: Space whales are no longer disabled and now move several times faster.
+  id: 838
+  time: '2026-04-22T05:49:52.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2162
