@@ -7272,3 +7272,10 @@ Entries:
   id: 840
   time: '2026-04-22T07:22:31.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2167
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Butchering is now fully predicted, welcome to the future.
+  id: 841
+  time: '2026-04-22T09:05:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2171
