@@ -7343,3 +7343,10 @@ Entries:
   id: 849
   time: '2026-04-23T19:32:56.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2198
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed not being able to craft bananium swords.
+  id: 850
+  time: '2026-04-23T19:46:32.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2199
