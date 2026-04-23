@@ -7350,3 +7350,10 @@ Entries:
   id: 850
   time: '2026-04-23T19:46:32.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2199
+- author: Armok
+  changes:
+  - type: Fix
+    message: Fix more turret AI cheese
+  id: 851
+  time: '2026-04-23T23:24:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2186
