@@ -7432,3 +7432,13 @@ Entries:
   id: 858
   time: '2026-04-24T16:23:09.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2192
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Some helmets no longer protect at very short range shown in its examine,
+      you can now actually shoot secoffs in the face to kill them instead of
+      shooting them in the helmet over and over 4 no raisin..?
+  id: 859
+  time: '2026-04-24T17:55:18.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2223
