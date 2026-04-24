@@ -7371,3 +7371,10 @@ Entries:
   id: 853
   time: '2026-04-24T00:35:35.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2209
+- author: TrixxedHeart, Luminal
+  changes:
+  - type: Add
+    message: Particles. Currently, only flammables have particles.
+  id: 854
+  time: '2026-04-24T08:21:11.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2136
