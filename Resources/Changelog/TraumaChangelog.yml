@@ -7492,3 +7492,12 @@ Entries:
   id: 864
   time: '2026-04-25T10:07:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2246
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Fixed not being able to biomass monkeys, and monkeys/clowns always being
+      able to climb tables and stuff.
+  id: 865
+  time: '2026-04-25T18:52:44.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2253
