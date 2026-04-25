@@ -7501,3 +7501,10 @@ Entries:
   id: 865
   time: '2026-04-25T18:52:44.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2253
+- author: Aineias1
+  changes:
+  - type: Tweak
+    message: all maps updated to have proper armories.
+  id: 866
+  time: '2026-04-25T20:01:12.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2252
