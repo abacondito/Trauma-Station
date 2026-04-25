@@ -7508,3 +7508,10 @@ Entries:
   id: 866
   time: '2026-04-25T20:01:12.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2252
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed syndicate pizza bombs not working at all.
+  id: 867
+  time: '2026-04-25T20:11:01.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2258
