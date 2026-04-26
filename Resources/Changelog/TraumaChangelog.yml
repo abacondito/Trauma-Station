@@ -7602,3 +7602,22 @@ Entries:
   id: 878
   time: '2026-04-26T21:25:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2225
+- author: MayasMischief
+  changes:
+  - type: Add
+    message: Added Coconut Crabs, sprited by asardonicsailor!
+  - type: Add
+    message: Added Coconut Plants, sprited by asardonicsailor and Moxie M. Mockery!
+  - type: Add
+    message: >-
+      Added Cherry Bombs, a cherry mutation which is a bomb. Looks the same
+      because lol
+  - type: Tweak
+    message: CLF3 now sets fire to tiles, and no longer pries tiles up.
+  - type: Tweak
+    message: Lemonades give more CLF3
+  - type: Remove
+    message: Burnite removed pending me coming up with an idea for it
+  id: 879
+  time: '2026-04-26T21:55:50.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2202
