@@ -7515,3 +7515,10 @@ Entries:
   id: 867
   time: '2026-04-25T20:11:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2258
+- author: NoElkaTheGod
+  changes:
+  - type: Tweak
+    message: Lobby time increased from 1.5 to 3 minutes.
+  id: 868
+  time: '2026-04-26T14:14:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2266
