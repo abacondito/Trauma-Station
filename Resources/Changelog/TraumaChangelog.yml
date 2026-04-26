@@ -7559,3 +7559,10 @@ Entries:
   id: 873
   time: '2026-04-26T19:17:12.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2280
+- author: assripper.
+  changes:
+  - type: Fix
+    message: abductor time requirements actually work now
+  id: 874
+  time: '2026-04-26T19:57:29.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2278
