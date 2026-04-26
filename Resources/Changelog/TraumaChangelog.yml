@@ -7536,3 +7536,10 @@ Entries:
   id: 870
   time: '2026-04-26T17:39:50.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2256
+- author: Papiditel
+  changes:
+  - type: Add
+    message: New armor for chaplain.
+  id: 871
+  time: '2026-04-26T19:03:10.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2254
