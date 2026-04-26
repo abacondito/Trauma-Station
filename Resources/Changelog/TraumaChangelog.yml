@@ -7529,3 +7529,10 @@ Entries:
   id: 869
   time: '2026-04-26T17:36:16.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2275
+- author: assripper.
+  changes:
+  - type: Add
+    message: Abductors now have a much bigger shuttle, which includes a cell.
+  id: 870
+  time: '2026-04-26T17:39:50.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2256
