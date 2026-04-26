@@ -7630,3 +7630,12 @@ Entries:
   id: 880
   time: '2026-04-26T22:06:55.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2289
+- author: TechnicFighter
+  changes:
+  - type: Tweak
+    message: >-
+      Revamped most normal inventories, contraband inventories and emag
+      inventories of vending machines
+  id: 881
+  time: '2026-04-26T22:55:48.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2262
