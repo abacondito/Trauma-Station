@@ -7550,3 +7550,12 @@ Entries:
   id: 872
   time: '2026-04-26T19:13:26.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2277
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Experimental syndicate teleporter now has a popup for being saved by
+      emergency teleport.
+  id: 873
+  time: '2026-04-26T19:17:12.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2280
