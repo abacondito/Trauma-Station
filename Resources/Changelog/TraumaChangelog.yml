@@ -7639,3 +7639,10 @@ Entries:
   id: 881
   time: '2026-04-26T22:55:48.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2262
+- author: John SAPHE
+  changes:
+  - type: Remove
+    message: 9.5mm SAPHE executed in cold blood, whos idea was this?
+  id: 882
+  time: '2026-04-27T08:36:21.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2299
