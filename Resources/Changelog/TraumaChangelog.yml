@@ -7653,3 +7653,12 @@ Entries:
   id: 883
   time: '2026-04-28T12:24:32.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2317
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Changed how syndicate autosurgeons are activated so they actually work on
+      the buckled mob.
+  id: 884
+  time: '2026-04-28T12:26:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2303
