@@ -112,14 +112,6 @@
   components:
   - type: CodeCondition
 
-# a free objective, which is a free greentext
-- type: entity
-  abstract: true
-  parent: BaseObjective
-  id: BaseFreeObjective
-  components:
-  - type: FreeObjective
-
 # requires the player to perform some action a certain number of times
 - type: entity
   abstract: true

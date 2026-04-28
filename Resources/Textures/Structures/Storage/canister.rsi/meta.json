@@ -14,10 +14,16 @@
             "name": "black-1"
         },
         {
+            "name": "mask-black"
+        },
+        {
             "name": "blue"
         },
         {
             "name": "blue-1"
+        },
+        {
+            "name": "mask-blue"
         },
         {
             "name": "can-connector"
@@ -59,10 +65,16 @@
             "name": "grey-1"
         },
         {
+            "name": "mask-grey"
+        },
+        {
             "name": "orange"
         },
         {
             "name": "orange-1"
+        },
+        {
+            "name": "mask-orange"
         },
         {
             "name": "red"
@@ -71,10 +83,16 @@
             "name": "red-1"
         },
         {
+            "name": "mask-red"
+        },
+        {
             "name": "redws"
         },
         {
             "name": "redws-1"
+        },
+        {
+            "name": "mask-redws"
         },
         {
             "name": "yellow"
@@ -83,10 +101,16 @@
             "name": "yellow-1"
         },
         {
+            "name": "mask-yellow"
+        },
+        {
             "name": "green"
         },
         {
             "name": "green-1"
+        },
+        {
+            "name": "mask-green"
         },
         {
             "name": "greenys"
@@ -95,10 +119,16 @@
             "name": "greenys-1"
         },
         {
+            "name": "mask-greenys"
+        },
+        {
             "name": "darkblue"
         },
         {
             "name": "darkblue-1"
+        },
+        {
+            "name": "mask-darkblue"
         },
         {
             "name": "frezon"
@@ -107,10 +137,16 @@
             "name": "frezon-1"
         },
         {
+            "name": "mask-frezon"
+        },
+        {
             "name": "water_vapor"
         },
         {
             "name": "water_vapor-1"
+        },
+        {
+            "name": "mask-water_vapor"
         },
         {
             "name": "purple"
@@ -119,10 +155,16 @@
             "name": "purple-1"
         },
         {
+            "name": "mask-purple"
+        },
+        {
             "name": "brown"
         },
         {
             "name": "brown-1"
+        },
+        {
+            "name": "mask-brown"
         },
         {
             "name": "healium"
@@ -131,10 +173,22 @@
             "name": "healium-1"
         },
         {
+            "name": "mask-healium"
+        },
+        {
             "name": "scrubber-connector"
         },
         {
             "name": "scrubber-open"
+        },
+        {
+            "name": "bounty"
+        },
+        {
+            "name": "captains_paper"
+        },
+        {
+            "name": "invoice"
         },
         {
             "name": "paper"
