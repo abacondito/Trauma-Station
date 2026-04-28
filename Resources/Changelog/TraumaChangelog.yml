@@ -7662,3 +7662,12 @@ Entries:
   id: 884
   time: '2026-04-28T12:26:24.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2303
+- author: Aviu
+  changes:
+  - type: Add
+    message: Coilguns now require battery charge to shoot.
+  - type: Tweak
+    message: Ammo counter ui looks nicer.
+  id: 885
+  time: '2026-04-28T12:27:09.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2301
