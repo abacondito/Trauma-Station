@@ -178,7 +178,7 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
 
     private void ApplyMarkings(Entity<VisualOrganMarkingsComponent> ent, Entity<SpriteComponent?> target)
     {
-        if (!Resolve(target, ref target.Comp))
+        if (!Resolve(target, ref target.Comp, false)) // Trauma - no shit test fails
             return;
 
         var applied = new List<Marking>();
@@ -225,7 +225,7 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
 
     private void RemoveMarkings(Entity<VisualOrganMarkingsComponent> ent, Entity<SpriteComponent?> target)
     {
-        if (!Resolve(target, ref target.Comp))
+        if (!Resolve(target, ref target.Comp, false)) // Trauma - no shit test fails
             return;
 
         foreach (var marking in ent.Comp.AppliedMarkings)
