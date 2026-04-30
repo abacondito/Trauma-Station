@@ -7733,3 +7733,10 @@ Entries:
   id: 893
   time: '2026-04-30T17:40:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2347
+- author: JohnJJohn
+  changes:
+  - type: Fix
+    message: Fixed phones being able to be put into containers for goonstation paridy
+  id: 894
+  time: '2026-04-30T23:25:35.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2249
