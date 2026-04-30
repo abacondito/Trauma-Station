@@ -7717,3 +7717,12 @@ Entries:
   id: 891
   time: '2026-04-30T06:42:05.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2341
+- author: TechnicFighter
+  changes:
+  - type: Tweak
+    message: >-
+      Revamped all loadouts of the misc midround antags! Also fixed Singuloth
+      Knight's taking rad damage
+  id: 892
+  time: '2026-04-30T06:44:32.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2298
