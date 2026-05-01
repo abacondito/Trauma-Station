@@ -43,7 +43,7 @@ selectable-set-syndicate-engineer-description =
 
 selectable-set-syndicate-door-kicker-name = Syndicate Door Kicker Bundle
 selectable-set-syndicate-door-kicker-description =
-    Live by a code of honor. Now sponsored by the Syndicate.
+    Kick, blast or shoot your way in with this bundle.
     Contains: operative jumpsuit, combat gloves, thermal vision goggles,
     syndicate operative pda, web vest, chest rig, syndicate gas mask,
     syndicate jaws of death, 'bojevic' combat shotgun, shell box,
