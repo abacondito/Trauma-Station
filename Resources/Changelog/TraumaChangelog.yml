@@ -7740,3 +7740,10 @@ Entries:
   id: 894
   time: '2026-04-30T23:25:35.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2249
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Disease headache effect no longer spam flashes you.
+  id: 895
+  time: '2026-05-01T12:05:10.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2354
