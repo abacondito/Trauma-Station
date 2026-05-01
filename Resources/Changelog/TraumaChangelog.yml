@@ -7747,3 +7747,12 @@ Entries:
   id: 895
   time: '2026-05-01T12:05:10.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2354
+- author: TechnicFighter
+  changes:
+  - type: Add
+    message: Added multiple undetermined bundle sets!
+  - type: Tweak
+    message: Buffed friendship set and you can now pick from 4 sets
+  id: 896
+  time: '2026-05-01T17:10:13.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2309
