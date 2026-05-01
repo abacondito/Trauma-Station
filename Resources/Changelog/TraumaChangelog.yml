@@ -7750,9 +7750,21 @@ Entries:
 - author: TechnicFighter
   changes:
   - type: Add
-    message: Added multiple undetermined bundle sets!
+    message: Added Syndicate Lawyer undetermined bundle set
+  - type: Add
+    message: Added Syndicate Terrorist undetermined bundle set
+  - type: Add
+    message: Added Syndicate Special Forces undetermined bundle set
+  - type: Add
+    message: Added Syndicate Pirate Captain undetermined bundle set
+  - type: Add
+    message: Added Syndicate Engineer undetermined bundle set
+  - type: Add
+    message: Added Syndicate Door Kicker undetermined bundle set
   - type: Tweak
-    message: Buffed friendship set and you can now pick from 4 sets
+    message: Buffed Friendship undetermined bundle set
+  - type: Tweak
+    message: You can now pick from four undetermined bundle sets
   id: 896
   time: '2026-05-01T17:10:13.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2309
