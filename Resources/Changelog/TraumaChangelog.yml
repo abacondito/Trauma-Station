@@ -7775,3 +7775,12 @@ Entries:
   id: 897
   time: '2026-05-01T20:58:39.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2356
+- author: assripper.
+  changes:
+  - type: Add
+    message: >-
+      when a major ghost role antagonist spawns a ui popup will now display to
+      all ghosts
+  id: 898
+  time: '2026-05-02T10:02:00.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2315
