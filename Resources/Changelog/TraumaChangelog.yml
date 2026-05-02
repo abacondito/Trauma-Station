@@ -7798,3 +7798,10 @@ Entries:
   id: 900
   time: '2026-05-02T14:04:52.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2368
+- author: TechnicFighter
+  changes:
+  - type: Add
+    message: Added a new shuttle for the Vox Raiders
+  id: 901
+  time: '2026-05-02T18:16:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2322
