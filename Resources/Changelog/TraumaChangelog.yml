@@ -7784,3 +7784,10 @@ Entries:
   id: 898
   time: '2026-05-02T10:02:00.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2315
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed decapoids and plasmamen being possible centcomm species.
+  id: 899
+  time: '2026-05-02T11:34:58.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2367
