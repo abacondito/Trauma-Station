@@ -7812,3 +7812,10 @@ Entries:
   id: 902
   time: '2026-05-03T01:10:24.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2377
+- author: assripper.
+  changes:
+  - type: Fix
+    message: maintspawnrule no longer spawns antags inside walls
+  id: 903
+  time: '2026-05-03T13:32:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2382
