@@ -7805,3 +7805,10 @@ Entries:
   id: 901
   time: '2026-05-02T18:16:16.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2322
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed revs not working.
+  id: 902
+  time: '2026-05-03T01:10:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2377
