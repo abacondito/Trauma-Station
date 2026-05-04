@@ -7907,3 +7907,10 @@ Entries:
   id: 913
   time: '2026-05-04T17:12:38.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2409
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Warden can now order things on the security request console.
+  id: 914
+  time: '2026-05-04T17:22:16.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2410
