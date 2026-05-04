@@ -7840,3 +7840,12 @@ Entries:
   id: 906
   time: '2026-05-04T00:57:24.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2392
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed lag on Delta Station from decals.
+  - type: Tweak
+    message: Removing blood vomit etc decals with a mop is now predicted properly.
+  id: 907
+  time: '2026-05-04T01:13:33.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2395
