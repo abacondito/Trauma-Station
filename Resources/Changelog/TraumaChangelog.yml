@@ -7886,3 +7886,10 @@ Entries:
   id: 910
   time: '2026-05-04T13:30:51.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2379
+- author: deltanedas
+  changes:
+  - type: Add
+    message: Added the checkdelay console command, use it if you are laggy.
+  id: 911
+  time: '2026-05-04T13:43:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2404
