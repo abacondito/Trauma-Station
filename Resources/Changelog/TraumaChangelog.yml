@@ -7849,3 +7849,26 @@ Entries:
   id: 907
   time: '2026-05-04T01:13:33.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2395
+- author: TechnicFighter
+  changes:
+  - type: Add
+    message: >-
+      Added the circular saw to the medical techfab (how was this not a thing
+      already)
+  - type: Tweak
+    message: The emag inventory of ShadyCigs has been updated
+  - type: Tweak
+    message: The sprite of the briefcase SMG has been updated
+  - type: Tweak
+    message: Shadow Demon now gets space movement
+  - type: Tweak
+    message: Flares and Glowsticks are now destroyable
+  - type: Fix
+    message: Fixed stunprod still being 2x2 (made it 1x3 like all the other batons)
+  - type: Fix
+    message: Fixed abductors having human skills including sol common
+  - type: Fix
+    message: Fixed being able to wide swing with forged knives
+  id: 908
+  time: '2026-05-04T08:14:54.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2334
