@@ -7893,3 +7893,10 @@ Entries:
   id: 911
   time: '2026-05-04T13:43:25.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2404
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed reddit
+  id: 912
+  time: '2026-05-04T14:08:33.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2405
