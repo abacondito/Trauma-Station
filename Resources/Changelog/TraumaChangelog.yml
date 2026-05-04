@@ -7914,3 +7914,10 @@ Entries:
   id: 914
   time: '2026-05-04T17:22:16.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2410
+- author: GeneRickUsername
+  changes:
+  - type: Fix
+    message: Fixed Language Speech/Understanding not reflecting skill level.
+  id: 915
+  time: '2026-05-04T21:33:11.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2321
