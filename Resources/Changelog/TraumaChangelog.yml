@@ -7872,3 +7872,10 @@ Entries:
   id: 908
   time: '2026-05-04T08:14:54.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2334
+- author: deltanedas
+  changes:
+  - type: Remove
+    message: Removed decal bugs/lag for real
+  id: 909
+  time: '2026-05-04T12:40:11.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2403
