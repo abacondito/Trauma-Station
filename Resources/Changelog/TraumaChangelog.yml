@@ -7928,3 +7928,10 @@ Entries:
   id: 916
   time: '2026-05-05T09:15:05.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2416
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed abductors not being listed in the round end summary.
+  id: 917
+  time: '2026-05-05T13:02:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2421
