@@ -7921,3 +7921,10 @@ Entries:
   id: 915
   time: '2026-05-04T21:33:11.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2321
+- author: MayasMischief
+  changes:
+  - type: Tweak
+    message: Ghosts can now use the Boo ability more often.
+  id: 916
+  time: '2026-05-05T09:15:05.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2416
