@@ -7935,3 +7935,10 @@ Entries:
   id: 917
   time: '2026-05-05T13:02:04.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2421
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed new decals drawing on every map.
+  id: 918
+  time: '2026-05-05T13:01:36.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2420
