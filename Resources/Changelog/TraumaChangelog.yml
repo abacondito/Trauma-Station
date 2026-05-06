@@ -8013,3 +8013,12 @@ Entries:
   id: 923
   time: '2026-05-06T16:16:01.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2444
+- author: TurboTrackerss14
+  changes:
+  - type: Remove
+    message: Syndicate Special Forces Bundle from Undertermined Crate sets.
+  - type: Tweak
+    message: Undertermined Crate set returned to only roll 3 sets instead of buffed 4.
+  id: 924
+  time: '2026-05-06T22:10:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2455
