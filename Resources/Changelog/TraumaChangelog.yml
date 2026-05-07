@@ -8022,3 +8022,10 @@ Entries:
   id: 924
   time: '2026-05-06T22:10:03.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2455
+- author: Armok
+  changes:
+  - type: Add
+    message: New patreon items
+  id: 925
+  time: '2026-05-07T00:48:25.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2447
