@@ -8079,3 +8079,14 @@ Entries:
   id: 927
   time: '2026-05-07T06:25:13.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2465
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed higher quality making shields and structures worse and vice versa.
+  - type: Fix
+    message: >-
+      Fixed quality shield examine not being predicted and not rounding the
+      numbers.
+  id: 928
+  time: '2026-05-07T12:26:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2467
