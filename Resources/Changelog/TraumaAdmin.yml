@@ -131,3 +131,10 @@ Entries:
   id: 17
   time: '2026-04-13T16:36:15.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2005
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: lsobjectives command now shows the description too
+  id: 18
+  time: '2026-05-08T15:32:50.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2493
