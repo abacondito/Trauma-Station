@@ -8131,3 +8131,10 @@ Entries:
   id: 933
   time: '2026-05-08T17:25:29.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2497
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed midround shadowling not working.
+  id: 934
+  time: '2026-05-08T19:02:07.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2498
