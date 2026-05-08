@@ -8138,3 +8138,10 @@ Entries:
   id: 934
   time: '2026-05-08T19:02:07.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2498
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed xenobio volatile organ making you stop metabolizing chemicals.
+  id: 935
+  time: '2026-05-08T19:29:33.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2499
