@@ -8099,3 +8099,12 @@ Entries:
   id: 929
   time: '2026-05-08T07:21:42.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2475
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Automatable machines no longer need an automation upgrade kit to be
+      linked.
+  id: 930
+  time: '2026-05-08T11:15:02.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2487
