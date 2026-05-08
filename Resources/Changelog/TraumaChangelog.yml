@@ -8122,3 +8122,12 @@ Entries:
   id: 932
   time: '2026-05-08T16:35:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2494
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      Enemy of the revolution now has its own red skull icon instead of
+      literally reusing rev icon.
+  id: 933
+  time: '2026-05-08T17:25:29.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2497
