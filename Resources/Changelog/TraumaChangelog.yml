@@ -8145,3 +8145,10 @@ Entries:
   id: 935
   time: '2026-05-08T19:29:33.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2499
+- author: TechnicFighter
+  changes:
+  - type: Fix
+    message: Fixed random empty category on cargo request console
+  id: 936
+  time: '2026-05-08T21:33:14.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2482
