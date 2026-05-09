@@ -1,14 +1,3 @@
-# SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
-# SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
-# SPDX-FileCopyrightText: 2025 absurd-shaman <165011607+absurd-shaman@users.noreply.github.com>
-#
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
-verb-trigger-timer-set = {$time} seconds
-verb-trigger-timer-set-current = {$time} seconds
-popup-trigger-timer-set = Trap timer set to {$time} seconds.
-
-
 reverse-bear-trap-component-target-self = You start putting the trap onto your own head...
 reverse-bear-trap-component-start-cuffing-observer = {CAPITALIZE($user)} is putting a trap on {$target}!
 reverse-bear-trap-component-start-cuffing-target = You start putting the trap on {$targetName}'s head...
