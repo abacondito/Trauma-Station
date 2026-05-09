@@ -8199,3 +8199,10 @@ Entries:
   id: 939
   time: '2026-05-09T11:54:53.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2507
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Undid nerf to ion rifle, it's not a nerf gun anymore.
+  id: 940
+  time: '2026-05-09T13:56:28.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2512
