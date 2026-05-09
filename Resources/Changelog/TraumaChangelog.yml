@@ -8181,3 +8181,12 @@ Entries:
   id: 937
   time: '2026-05-09T07:14:19.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2457
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: >-
+      You can now craft plastic tiles, which now have their own items when pried
+      up.
+  id: 938
+  time: '2026-05-09T08:46:53.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2506
