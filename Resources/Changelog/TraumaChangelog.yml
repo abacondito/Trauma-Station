@@ -8152,3 +8152,32 @@ Entries:
   id: 936
   time: '2026-05-08T21:33:14.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2482
+- author: TechnicFighter
+  changes:
+  - type: Add
+    message: Added hailer to swat mask
+  - type: Add
+    message: Added smoke blocker to explorer mask
+  - type: Add
+    message: Added missing category to surgery tools
+  - type: Add
+    message: Added more chems to the reagent anomaly
+  - type: Add
+    message: Added straitjacket to security fab
+  - type: Fix
+    message: IPCs can now be thralled
+  - type: Fix
+    message: Laser weapon surgery now actually works
+  - type: Fix
+    message: Added correct timer to reverse bear trap
+  - type: Tweak
+    message: Uniform Printer can now be linked to Material Silo
+  - type: Tweak
+    message: Biodegrade breaks you out of welded containers
+  - type: Tweak
+    message: 8-gauge carpshot now deals structural damage ( 12 gauge already did)
+  - type: Tweak
+    message: Straitjacket breakout time changed from 100 to 120 seconds
+  id: 937
+  time: '2026-05-09T07:14:19.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2457
