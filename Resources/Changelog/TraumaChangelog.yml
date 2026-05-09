@@ -8190,3 +8190,12 @@ Entries:
   id: 938
   time: '2026-05-09T08:46:53.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2506
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: Janitors' rubber gloves now let you safely hold glued and lubed items.
+  - type: Fix
+    message: Fixed lube tube not updating the liquid for you when used.
+  id: 939
+  time: '2026-05-09T11:54:53.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2507
