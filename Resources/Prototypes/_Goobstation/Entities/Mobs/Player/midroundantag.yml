@@ -16,7 +16,6 @@
   - type: Loadout
     prototypes: [ TunnelClownAntagGear ]
   - type: Clumsy
-  - type: TriggerOnSpawn
 
 - type: entity
   parent: MobHuman
