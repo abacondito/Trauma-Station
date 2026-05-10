@@ -8244,3 +8244,28 @@ Entries:
   id: 944
   time: '2026-05-10T21:53:57.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2525
+- author: Armok
+  changes:
+  - type: Add
+    message: Noise insulation
+  - type: Tweak
+    message: Buff ion rifle
+  - type: Tweak
+    message: make a bunch of item sizes better
+  - type: Fix
+    message: Directional walls now block 50% nosie
+  - type: Tweak
+    message: buff rev skill books
+  - type: Tweak
+    message: >-
+      remove martial arts from hos and warden skillchips, give bonus melee and
+      shooting instead
+  - type: Tweak
+    message: Rev telespehere no longer requires the RD portal
+  - type: Fix
+    message: walls no longer have quality
+  - type: Fix
+    message: secret walls no longer dox you
+  id: 945
+  time: '2026-05-10T23:01:24.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2527
