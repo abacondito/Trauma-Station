@@ -8269,3 +8269,10 @@ Entries:
   id: 945
   time: '2026-05-10T23:01:24.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2527
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed shadowlings not being able to ascend near wires, pipes, areas, etc.
+  id: 946
+  time: '2026-05-11T00:54:55.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2533
