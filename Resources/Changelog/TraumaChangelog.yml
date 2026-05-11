@@ -8292,3 +8292,12 @@ Entries:
   id: 948
   time: '2026-05-11T19:39:32.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2546
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed roboticist not using the right loadouts.
+  - type: Fix
+    message: Fixed mobs not naturally regenerating blood while alive.
+  id: 949
+  time: '2026-05-11T20:49:50.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2550
