@@ -8301,3 +8301,10 @@ Entries:
   id: 949
   time: '2026-05-11T20:49:50.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2550
+- author: Pi-tanium
+  changes:
+  - type: Tweak
+    message: Gold Extract summons 2 hostile mobs instead of 5
+  id: 950
+  time: '2026-05-12T05:13:17.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2522
