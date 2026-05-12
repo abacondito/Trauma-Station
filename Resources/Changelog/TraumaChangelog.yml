@@ -8315,3 +8315,10 @@ Entries:
   id: 951
   time: '2026-05-12T11:23:03.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2563
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed mop decal cleaning spamming the sound.
+  id: 952
+  time: '2026-05-12T19:07:51.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2571
