@@ -8308,3 +8308,10 @@ Entries:
   id: 950
   time: '2026-05-12T05:13:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2522
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed some jukebox music sounding awful with sound occlusion.
+  id: 951
+  time: '2026-05-12T11:23:03.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2563
