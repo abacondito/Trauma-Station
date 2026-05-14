@@ -8463,3 +8463,10 @@ Entries:
   id: 969
   time: '2026-05-14T19:27:28.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2620
+- author: abacondito
+  changes:
+  - type: Fix
+    message: Librarian's Printing press can now be lubed/glued like other lathes.
+  id: 970
+  time: '2026-05-14T19:32:04.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2594
