@@ -221,7 +221,7 @@ public sealed partial class ViewconeOverlaySystem : EntitySystem
     private void OnOccludableParentChanged(Entity<ViewconeOccludableComponent> ent, ref EntParentChangedMessage args)
     {
         if (ent.Comp.Memory is not { } memory ||
-            args.OldMapId != args.Transform.MapUid)
+            args.OldMapId == args.Transform.MapUid)
             return;
 
         // if the map changes for any reason, hide the memory
