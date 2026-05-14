@@ -8368,3 +8368,10 @@ Entries:
   id: 958
   time: '2026-05-14T08:47:17.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2572
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed not being able to use triggers got from deconstructing grenades.
+  id: 959
+  time: '2026-05-14T09:17:14.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2601
