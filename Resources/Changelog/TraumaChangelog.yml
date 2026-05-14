@@ -8398,3 +8398,10 @@ Entries:
   id: 962
   time: '2026-05-14T12:20:13.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2608
+- author: pyrocynicals biggest hater
+  changes:
+  - type: Remove
+    message: Removed inflation from evil coins
+  id: 963
+  time: '2026-05-14T13:36:45.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2609
