@@ -8391,3 +8391,10 @@ Entries:
   id: 961
   time: '2026-05-14T11:07:19.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2604
+- author: deltanedas
+  changes:
+  - type: Tweak
+    message: NTR no longer tells you to ahelp to leave in chat, cryo exists.
+  id: 962
+  time: '2026-05-14T12:20:13.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2608
