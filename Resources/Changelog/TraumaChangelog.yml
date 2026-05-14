@@ -8354,3 +8354,10 @@ Entries:
   id: 956
   time: '2026-05-13T19:12:56.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2593
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: Fixed not being able to automate lathes.
+  id: 957
+  time: '2026-05-14T08:19:41.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2600
