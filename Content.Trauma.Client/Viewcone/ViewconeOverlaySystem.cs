@@ -29,6 +29,7 @@ public sealed partial class ViewconeOverlaySystem : EntitySystem
     [Dependency] private IPlayerManager _player = default!;
     [Dependency] private IOverlayManager _overlay = default!;
     [Dependency] private SharedTransformSystem _xform = default!;
+    [Dependency] private SpriteSystem _sprite = default!;
     [Dependency] private ViewconeAngleSystem _angle = default!;
     [Dependency] private EntityQuery<MouseRotatorComponent> _rotatorQuery = default!;
 
@@ -60,6 +61,7 @@ public sealed partial class ViewconeOverlaySystem : EntitySystem
         SubscribeLocalEvent<ViewconeOccludableComponent, PullStartedMessage>(OnPullStarted);
         SubscribeLocalEvent<ViewconeOccludableComponent, PullStoppedMessage>(OnPullStopped);
         SubscribeLocalEvent<ViewconeOccludableComponent, ComponentShutdown>(OnOccludableShutdown);
+        SubscribeLocalEvent<ViewconeOccludableComponent, EntParentChangedMessage>(OnOccludableParentChanged);
 
         _coneOverlay = new();
         _setAlphaOverlay = new();
@@ -214,5 +216,16 @@ public sealed partial class ViewconeOverlaySystem : EntitySystem
     {
         if (ent.Comp.Memory is { } memory && !TerminatingOrDeleted(memory))
             Del(memory);
+    }
+
+    private void OnOccludableParentChanged(Entity<ViewconeOccludableComponent> ent, ref EntParentChangedMessage args)
+    {
+        if (ent.Comp.Memory is not { } memory ||
+            args.OldMapId != args.Transform.MapUid)
+            return;
+
+        // if the map changes for any reason, hide the memory
+        // this may happen from leaving PVS or FTLing, etc
+        _sprite.SetVisible(memory, false);
     }
 }
