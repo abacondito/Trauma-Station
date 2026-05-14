@@ -8456,3 +8456,10 @@ Entries:
   id: 968
   time: '2026-05-14T19:18:25.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2621
+- author: TechnicFighter
+  changes:
+  - type: Fix
+    message: Fixed Xenoborgs not having skills
+  id: 969
+  time: '2026-05-14T19:27:28.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2620
