@@ -1,0 +1,4 @@
+- type: entity
+  parent: Bookshelf
+  id: AnomalousBookshelf
+  name: "AER-868"
