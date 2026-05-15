@@ -1,6 +1,0 @@
-- type: entity
-  id: AnomalousBookshelf
-  parent: Bookshelf
-  name: "AER-868"
-  description: Mostly filled with books.
-  
