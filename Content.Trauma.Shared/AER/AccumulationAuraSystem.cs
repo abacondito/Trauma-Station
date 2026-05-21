@@ -1,18 +1,11 @@
-using Content.Shared.Mobs.Components;
-using Robust.Shared.GameObjects;
-using Content.Trauma.Server.Aer;
-using Robust.Shared.Player;
 using Content.Shared.Mind.Components;
 using Content.Shared.Emoting;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Chat;
-using System.Runtime.CompilerServices;
-using Content.Trauma.Shared.StatusEffects;
 using Content.Shared.StatusEffectNew;
 using DependencyAttribute = Robust.Shared.IoC.DependencyAttribute;
-using Robust.Shared.Map;
 using Robust.Shared.Timing;
-using Robust.Shared.Toolshed.Commands.GameTiming;
+
 
 
 namespace Content.Trauma.Server.Aer;
@@ -24,12 +17,11 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
     [Dependency] private EmoteSystem _emote = default!;
 
     [Dependency] private SharedAudioSystem _audio = default!;
-    [Dependency] private GameTiming _timing = default!;
+    [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedChatSystem _chat = default!;
     [Dependency] private StatusEffectsSystem _statusEffects = default!;
 
     private HashSet<Entity<MindContainerComponent>> _players = new HashSet<Entity<MindContainerComponent>>();
-    private HashSet<EntityUid> _nowInside = new HashSet<EntityUid>();
 
     public override void Update(float frameTime)
     {
@@ -44,6 +36,9 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
 
             _players.Clear();
 
+            var nowInside = new HashSet<EntityUid>();
+
+
 
             _lookup.GetEntitiesInRange(center, aura.Range, _players);
 
@@ -56,7 +51,7 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
                 if (!HasComp<MindContainerComponent>(ent))
                     continue;
 
-                _nowInside.Add(ent.Owner);
+                nowInside.Add(ent.Owner);
 
                 if (!aura.Accumulated.ContainsKey(ent.Owner))
                     aura.Accumulated[ent.Owner] = curTime;
@@ -75,7 +70,7 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
 
             foreach (var tracked in aura.Accumulated.Keys)
             {
-                if (!_nowInside.Contains(tracked))
+                if (!nowInside.Contains(tracked))
                     toRemove.Add(tracked);
             }
 
@@ -99,7 +94,8 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
                     if (!aura.FiredEffects[target].Contains(effect.Key))
                     {
                         //shit that applies status effects
-                        _statusEffects.TryAddStatusEffect(target, effect.Key, out var status);
+                        if (!_statusEffects.HasStatusEffect(target, effect.Key))
+                            _statusEffects.TryAddStatusEffect(target, effect.Key, out var status);
                         _chat.TryEmoteWithChat(target, "Scream");
                         aura.FiredEffects[target].Add(effect.Key);
                     }
@@ -109,7 +105,8 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
                     aura.FiredEffects[target] = [effect.Key];
                     //shit that applies status effect
                     _chat.TryEmoteWithChat(target, "Scream");
-                    _statusEffects.TryAddStatusEffect(target, effect.Key, out var status);
+                    if (!_statusEffects.HasStatusEffect(target, effect.Key))
+                        _statusEffects.TryAddStatusEffect(target, effect.Key, out var status);
                 }
             }
         }
