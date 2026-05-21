@@ -18,7 +18,7 @@ public sealed partial class AccumulationAuraComponent : Component
 
     // Tracks how long each entity has been inside the aura
     [DataField]
-    public Dictionary<EntityUid, float> Accumulated = new();
+    public Dictionary<EntityUid, TimeSpan> Accumulated = new();
 
     //effects and relative thresholds to activate
     [DataField]
