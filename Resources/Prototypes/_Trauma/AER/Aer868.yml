@@ -2,3 +2,11 @@
   parent: Bookshelf
   id: AnomalousBookshelf
   name: "AER-868"
+  components:
+  - type: AccumulationAura
+    range: 2.5
+    tickRate: 1
+    startingEffects:
+     StatusEffectSeeingRainbow : 10
+    
+
