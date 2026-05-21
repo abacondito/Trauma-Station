@@ -5,7 +5,6 @@ using Robust.Shared.Player;
 using Content.Shared.Mind.Components;
 using Content.Shared.Emoting;
 using Robust.Shared.Audio.Systems;
-using NetCord;
 using Content.Shared.Chat;
 using System.Runtime.CompilerServices;
 using Content.Trauma.Shared.StatusEffects;
