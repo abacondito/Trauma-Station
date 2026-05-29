@@ -5,6 +5,8 @@ using Content.Shared.Chat;
 using Content.Shared.StatusEffectNew;
 using DependencyAttribute = Robust.Shared.IoC.DependencyAttribute;
 using Robust.Shared.Timing;
+using Content.Shared.EntityEffects;
+
 
 
 
@@ -20,6 +22,8 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
     [Dependency] private IGameTiming _timing = default!;
     [Dependency] private SharedChatSystem _chat = default!;
     [Dependency] private StatusEffectsSystem _statusEffects = default!;
+
+    [Dependency] private SharedEntityEffectsSystem _entityEffectSystem = default!;
 
     private HashSet<Entity<MindContainerComponent>> _players = new HashSet<Entity<MindContainerComponent>>();
 
@@ -97,6 +101,7 @@ public sealed partial class AccumulationAuraSystem : EntitySystem
                         if (!_statusEffects.HasStatusEffect(target, effect.Key))
                             _statusEffects.TryAddStatusEffect(target, effect.Key, out var status);
                         _chat.TryEmoteWithChat(target, "Scream");
+                        _entityEffectSystem.TryApplyEffect(target, effect.Key);
                         aura.FiredEffects[target].Add(effect.Key);
                     }
                 }
