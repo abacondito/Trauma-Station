@@ -1,14 +1,15 @@
 using System.Runtime.CompilerServices;
+using Content.Shared.EntityEffects;
 using Content.Shared.Popups;
 using Content.Shared.StatusEffect;
 using Robust.Shared.Physics;
 
 //maybe i should move this aura stuff somewhere else
 
-namespace Content.Trauma.Server.Aer;
+namespace Content.Trauma.Shared.Aer;
 
 [RegisterComponent]
-public sealed partial class AccumulationAuraComponent : Component
+public sealed partial class ApplyStatusEffectsNearComponent : Component
 {
     [DataField]
     public float Range = 2f;
@@ -18,11 +19,9 @@ public sealed partial class AccumulationAuraComponent : Component
 
     // Tracks how long each entity has been inside the aura
     [DataField]
-    public Dictionary<EntityUid, TimeSpan> Accumulated = new();
+    public HashSet<EntityUid> EntitiesNear = new();
 
-    //effects and relative thresholds to activate
+    //status effect applied by the aura
     [DataField]
-    public Dictionary<EntProtoId, float> StartingEffects = new();
-
-    public Dictionary<EntityUid, HashSet<EntProtoId>> FiredEffects = new();
+    public EntProtoId Effect = new();
 }

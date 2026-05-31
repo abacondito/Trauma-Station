@@ -3,10 +3,20 @@
   id: AnomalousBookshelf
   name: "AER-868"
   components:
-  - type: AccumulationAura
+  - type: ApplyStatusEffectsNear
     range: 2.5
     tickRate: 1
-    startingEffects:
-     StatusEffectSeeingRainbow : 10
+    effect: AnomalousBookshelfEffects
+    
+- type: entity
+  id: AnomalousBookshelfEffects
+  parent: MobStatusEffectDebuff
+  components:
+  - type: AccumulationStatusEffect
+    startingEffects: 
+    - 5.5: 
+      - !type:SpawnParticles
+        particleProto: BloodParticles
+
     
 
