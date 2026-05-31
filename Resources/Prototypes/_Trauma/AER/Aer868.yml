@@ -13,10 +13,11 @@
   parent: MobStatusEffectDebuff
   components:
   - type: AccumulationStatusEffect
-    startingEffects: 
-    - 5.5: 
-      - !type:SpawnParticles
-        particleProto: BloodParticles
+    effects: 
+    - !type:SpawnParticles
+      particleProto: BloodParticles
+    timeToTrigger: 
+    - 5
 
     
 

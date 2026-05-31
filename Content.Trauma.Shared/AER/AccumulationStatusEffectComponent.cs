@@ -11,6 +11,9 @@ public sealed partial class AccumulationStatusEffectComponent : Component
     public TimeSpan TimeOfApplication = TimeSpan.Zero;
 
     [DataField]
+    public List<EntityEffect> Effects = new();
+    [DataField]
+    public List<float> TimeToTrigger = new();
     public Dictionary<float, EntityEffect> StartingEffects = new();
 
     [DataField]

@@ -3,6 +3,7 @@ using Content.Shared.Drowsiness;
 using Content.Shared.EntityEffects;
 using Content.Shared.StatusEffectNew;
 using Content.Shared.StatusEffectNew.Components;
+using Content.Trauma.Shared.Actions;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 
@@ -26,6 +27,12 @@ public sealed partial class AccumulationStatusEffectSystem : EntitySystem
     {
         ent.Comp.TimeOfApplication = _timing.CurTime;
         ent.Comp.FiredEffects.Clear();
+        var i = 0;
+        foreach (var effect in ent.Comp.Effects)
+        {
+            ent.Comp.StartingEffects.Add(ent.Comp.TimeToTrigger[i], effect);
+            i++;
+        }
     }
 
     public override void Update(float frameTime)
