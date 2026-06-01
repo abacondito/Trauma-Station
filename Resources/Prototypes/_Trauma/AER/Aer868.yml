@@ -16,8 +16,21 @@
     effects: 
     - !type:SpawnParticles
       particleProto: BloodParticles
+    - !type:PopupMessage
+      type: Local
+      visualType: Medium
+      messages: [ "effect-sleepy" ]
+      probability: 1
+    - !type:Explosion
+      explosionType: Default
+      maxIntensity: 2
+      intensityPerUnit: 0.5
+      intensitySlope: 4
+      maxTotalIntensity: 1
     timeToTrigger: 
     - 5
+    - 10
+    - 15
 
     
 
