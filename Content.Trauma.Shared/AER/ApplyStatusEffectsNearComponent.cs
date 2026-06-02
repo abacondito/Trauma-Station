@@ -3,6 +3,7 @@ using Content.Shared.EntityEffects;
 using Content.Shared.Popups;
 using Content.Shared.StatusEffect;
 using Robust.Shared.Physics;
+using Robust.Shared.Physics.Collision.Shapes;
 
 //maybe i should move this aura stuff somewhere else
 
@@ -19,9 +20,12 @@ public sealed partial class ApplyStatusEffectsNearComponent : Component
 
     // Tracks how long each entity has been inside the aura
     [DataField]
-    public HashSet<EntityUid> EntitiesNear = new();
+    public HashSet<EntityUid> EntitiesInside = new();
 
     //status effect applied by the aura
     [DataField]
     public EntProtoId Effect = new();
+
+    [DataField]
+    public IPhysShape CircleCollisionShape = new PhysShapeCircle(2f);
 }
